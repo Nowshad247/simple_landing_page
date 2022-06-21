@@ -1,0 +1,50 @@
+.body{
+    background-color: #000249;
+    font-family: 'Fira Code', monospace;
+    color: white;
+}
+.menuStyle{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menuStyle li{
+   list-style: none;
+   padding: 10px 20px;
+}
+.menuStyle li a{
+ color: white;
+ font-size: 28px;
+ text-decoration: none;
+}
+.content{
+    height: 80vh;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.content .title{
+ display: block;
+ text-align: center;
+}
+.content .title h3{
+    font-size:2em;
+}
+.content .title h1{
+    font-style: italic;
+    font-size:2em;
+}
+.content .title p{
+    font-style: italic;
+    font-size:1em;
+}
+.icons a i{ 
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+ 
+    
+}
